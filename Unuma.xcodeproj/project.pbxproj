@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F543BCA830D8FC9F6AE7DF2 /* Pods_UnumaSeven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780BA9413F17B2E51D2D2021 /* Pods_UnumaSeven.framework */; };
 		61A11DDC1E2A9D7D000F6184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DDB1E2A9D7D000F6184 /* main.m */; };
 		61A11DDF1E2A9D7D000F6184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DDE1E2A9D7D000F6184 /* AppDelegate.m */; };
 		61A11DE21E2A9D7D000F6184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DE11E2A9D7D000F6184 /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		61A11DEA1E2A9D7D000F6184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A11DE81E2A9D7D000F6184 /* LaunchScreen.storyboard */; };
 		61A11DF51E2A9D7D000F6184 /* UnumaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DF41E2A9D7D000F6184 /* UnumaTests.m */; };
 		61A11E001E2A9D7D000F6184 /* UnumaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DFF1E2A9D7D000F6184 /* UnumaUITests.m */; };
+		61A11E1E1E2BAAC2000F6184 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DE11E2A9D7D000F6184 /* ViewController.m */; };
+		61A11E1F1E2BAAC2000F6184 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DDE1E2A9D7D000F6184 /* AppDelegate.m */; };
+		61A11E201E2BAAC2000F6184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11DDB1E2A9D7D000F6184 /* main.m */; };
+		61A11E231E2BAAC2000F6184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A11DE81E2A9D7D000F6184 /* LaunchScreen.storyboard */; };
+		61A11E241E2BAAC2000F6184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A11DE61E2A9D7D000F6184 /* Assets.xcassets */; };
+		61A11E251E2BAAC2000F6184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A11DE31E2A9D7D000F6184 /* Main.storyboard */; };
+		61A11E2D1E2CA6A2000F6184 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11E2C1E2CA6A2000F6184 /* ViewController2.m */; };
+		61A11E2E1E2CA6A2000F6184 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 61A11E2C1E2CA6A2000F6184 /* ViewController2.m */; };
+		F80729EB5A337EC45F91EEED /* Pods_UnumaFami.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69C8D7C790EA9ECD711389B /* Pods_UnumaFami.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61A11DD71E2A9D7D000F6184 /* Unuma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unuma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0CC7396FB04E3B5E01A7DE /* Pods-UnumaSeven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnumaSeven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnumaSeven/Pods-UnumaSeven.debug.xcconfig"; sourceTree = "<group>"; };
+		21C65A4EAF99EC0A3BCDD64A /* Pods-UnumaFami.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnumaFami.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnumaFami/Pods-UnumaFami.debug.xcconfig"; sourceTree = "<group>"; };
+		23818490EE314B5B1803A8E1 /* Pods-UnumaSeven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnumaSeven.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnumaSeven/Pods-UnumaSeven.release.xcconfig"; sourceTree = "<group>"; };
+		61A11DD71E2A9D7D000F6184 /* UnumaSeven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnumaSeven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A11DDB1E2A9D7D000F6184 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61A11DDD1E2A9D7D000F6184 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61A11DDE1E2A9D7D000F6184 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,13 @@
 		61A11DFB1E2A9D7D000F6184 /* UnumaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnumaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A11DFF1E2A9D7D000F6184 /* UnumaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnumaUITests.m; sourceTree = "<group>"; };
 		61A11E011E2A9D7D000F6184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A11E291E2BAAC2000F6184 /* UnumaFami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnumaFami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A11E2A1E2BAAC2000F6184 /* Unuma copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Unuma copy-Info.plist"; path = "/Users/siamcats/Documents/workspace/Unuma/Unuma copy-Info.plist"; sourceTree = "<absolute>"; };
+		61A11E2B1E2CA61A000F6184 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		61A11E2C1E2CA6A2000F6184 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		77360DA16F3C508BDDBAE9C5 /* Pods-UnumaFami.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnumaFami.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnumaFami/Pods-UnumaFami.release.xcconfig"; sourceTree = "<group>"; };
+		780BA9413F17B2E51D2D2021 /* Pods_UnumaSeven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnumaSeven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69C8D7C790EA9ECD711389B /* Pods_UnumaFami.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnumaFami.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F543BCA830D8FC9F6AE7DF2 /* Pods_UnumaSeven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +96,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61A11E211E2BAAC2000F6184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80729EB5A337EC45F91EEED /* Pods_UnumaFami.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2961CAE356DFD721CABE83DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69C8D7C790EA9ECD711389B /* Pods_UnumaFami.framework */,
+				780BA9413F17B2E51D2D2021 /* Pods_UnumaSeven.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		339AF884C2690209CB7B777D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21C65A4EAF99EC0A3BCDD64A /* Pods-UnumaFami.debug.xcconfig */,
+				77360DA16F3C508BDDBAE9C5 /* Pods-UnumaFami.release.xcconfig */,
+				1B0CC7396FB04E3B5E01A7DE /* Pods-UnumaSeven.debug.xcconfig */,
+				23818490EE314B5B1803A8E1 /* Pods-UnumaSeven.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		61A11DCE1E2A9D7D000F6184 = {
 			isa = PBXGroup;
 			children = (
@@ -85,15 +134,19 @@
 				61A11DF31E2A9D7D000F6184 /* UnumaTests */,
 				61A11DFE1E2A9D7D000F6184 /* UnumaUITests */,
 				61A11DD81E2A9D7D000F6184 /* Products */,
+				61A11E2A1E2BAAC2000F6184 /* Unuma copy-Info.plist */,
+				339AF884C2690209CB7B777D /* Pods */,
+				2961CAE356DFD721CABE83DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		61A11DD81E2A9D7D000F6184 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61A11DD71E2A9D7D000F6184 /* Unuma.app */,
+				61A11DD71E2A9D7D000F6184 /* UnumaSeven.app */,
 				61A11DF01E2A9D7D000F6184 /* UnumaTests.xctest */,
 				61A11DFB1E2A9D7D000F6184 /* UnumaUITests.xctest */,
+				61A11E291E2BAAC2000F6184 /* UnumaFami.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +158,8 @@
 				61A11DDE1E2A9D7D000F6184 /* AppDelegate.m */,
 				61A11DE01E2A9D7D000F6184 /* ViewController.h */,
 				61A11DE11E2A9D7D000F6184 /* ViewController.m */,
+				61A11E2B1E2CA61A000F6184 /* ViewController2.h */,
+				61A11E2C1E2CA6A2000F6184 /* ViewController2.m */,
 				61A11DE31E2A9D7D000F6184 /* Main.storyboard */,
 				61A11DE61E2A9D7D000F6184 /* Assets.xcassets */,
 				61A11DE81E2A9D7D000F6184 /* LaunchScreen.storyboard */,
@@ -143,21 +198,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61A11DD61E2A9D7D000F6184 /* Unuma */ = {
+		61A11DD61E2A9D7D000F6184 /* UnumaSeven */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61A11E041E2A9D7D000F6184 /* Build configuration list for PBXNativeTarget "Unuma" */;
+			buildConfigurationList = 61A11E041E2A9D7D000F6184 /* Build configuration list for PBXNativeTarget "UnumaSeven" */;
 			buildPhases = (
+				3E6260FE4F6A7A331F595D2F /* [CP] Check Pods Manifest.lock */,
 				61A11DD31E2A9D7D000F6184 /* Sources */,
 				61A11DD41E2A9D7D000F6184 /* Frameworks */,
 				61A11DD51E2A9D7D000F6184 /* Resources */,
+				50C75EB9DAEC864EE74AB795 /* [CP] Embed Pods Frameworks */,
+				7D9B5EC92723AE4E68C4D74E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Unuma;
+			name = UnumaSeven;
 			productName = Unuma;
-			productReference = 61A11DD71E2A9D7D000F6184 /* Unuma.app */;
+			productReference = 61A11DD71E2A9D7D000F6184 /* UnumaSeven.app */;
 			productType = "com.apple.product-type.application";
 		};
 		61A11DEF1E2A9D7D000F6184 /* UnumaTests */ = {
@@ -196,6 +254,26 @@
 			productReference = 61A11DFB1E2A9D7D000F6184 /* UnumaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		61A11E1C1E2BAAC2000F6184 /* UnumaFami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A11E261E2BAAC2000F6184 /* Build configuration list for PBXNativeTarget "UnumaFami" */;
+			buildPhases = (
+				A3C46D1CB6ABFE4203F7FF1C /* [CP] Check Pods Manifest.lock */,
+				61A11E1D1E2BAAC2000F6184 /* Sources */,
+				61A11E211E2BAAC2000F6184 /* Frameworks */,
+				61A11E221E2BAAC2000F6184 /* Resources */,
+				909C765CA94FFF3A9AF7FA02 /* [CP] Embed Pods Frameworks */,
+				89B1165414652F999710B89E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnumaFami;
+			productName = Unuma;
+			productReference = 61A11E291E2BAAC2000F6184 /* UnumaFami.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +285,7 @@
 				TargetAttributes = {
 					61A11DD61E2A9D7D000F6184 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HXB55X7B9G;
 						ProvisioningStyle = Automatic;
 					};
 					61A11DEF1E2A9D7D000F6184 = {
@@ -218,6 +297,9 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 61A11DD61E2A9D7D000F6184;
+					};
+					61A11E1C1E2BAAC2000F6184 = {
+						DevelopmentTeam = HXB55X7B9G;
 					};
 				};
 			};
@@ -234,7 +316,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61A11DD61E2A9D7D000F6184 /* Unuma */,
+				61A11DD61E2A9D7D000F6184 /* UnumaSeven */,
+				61A11E1C1E2BAAC2000F6184 /* UnumaFami */,
 				61A11DEF1E2A9D7D000F6184 /* UnumaTests */,
 				61A11DFA1E2A9D7D000F6184 /* UnumaUITests */,
 			);
@@ -266,7 +349,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61A11E221E2BAAC2000F6184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A11E231E2BAAC2000F6184 /* LaunchScreen.storyboard in Resources */,
+				61A11E241E2BAAC2000F6184 /* Assets.xcassets in Resources */,
+				61A11E251E2BAAC2000F6184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E6260FE4F6A7A331F595D2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50C75EB9DAEC864EE74AB795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnumaSeven/Pods-UnumaSeven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9B5EC92723AE4E68C4D74E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnumaSeven/Pods-UnumaSeven-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B1165414652F999710B89E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnumaFami/Pods-UnumaFami-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909C765CA94FFF3A9AF7FA02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnumaFami/Pods-UnumaFami-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C46D1CB6ABFE4203F7FF1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61A11DD31E2A9D7D000F6184 /* Sources */ = {
@@ -274,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61A11DE21E2A9D7D000F6184 /* ViewController.m in Sources */,
+				61A11E2D1E2CA6A2000F6184 /* ViewController2.m in Sources */,
 				61A11DDF1E2A9D7D000F6184 /* AppDelegate.m in Sources */,
 				61A11DDC1E2A9D7D000F6184 /* main.m in Sources */,
 			);
@@ -295,17 +482,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61A11E1D1E2BAAC2000F6184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A11E1E1E2BAAC2000F6184 /* ViewController.m in Sources */,
+				61A11E2E1E2CA6A2000F6184 /* ViewController2.m in Sources */,
+				61A11E1F1E2BAAC2000F6184 /* AppDelegate.m in Sources */,
+				61A11E201E2BAAC2000F6184 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		61A11DF21E2A9D7D000F6184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61A11DD61E2A9D7D000F6184 /* Unuma */;
+			target = 61A11DD61E2A9D7D000F6184 /* UnumaSeven */;
 			targetProxy = 61A11DF11E2A9D7D000F6184 /* PBXContainerItemProxy */;
 		};
 		61A11DFD1E2A9D7D000F6184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 61A11DD61E2A9D7D000F6184 /* Unuma */;
+			target = 61A11DD61E2A9D7D000F6184 /* UnumaSeven */;
 			targetProxy = 61A11DFC1E2A9D7D000F6184 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,8 +618,16 @@
 		};
 		61A11E051E2A9D7D000F6184 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0CC7396FB04E3B5E01A7DE /* Pods-UnumaSeven.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HXB55X7B9G;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"SEVEN=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Unuma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siamcats.Unuma;
@@ -431,8 +637,15 @@
 		};
 		61A11E061E2A9D7D000F6184 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23818490EE314B5B1803A8E1 /* Pods-UnumaSeven.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HXB55X7B9G;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"SEVEN=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = Unuma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = siamcats.Unuma;
@@ -486,6 +699,43 @@
 			};
 			name = Release;
 		};
+		61A11E271E2BAAC2000F6184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C65A4EAF99EC0A3BCDD64A /* Pods-UnumaFami.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HXB55X7B9G;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"FAMI=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unuma copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siamcats.Unuma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61A11E281E2BAAC2000F6184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77360DA16F3C508BDDBAE9C5 /* Pods-UnumaFami.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HXB55X7B9G;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"FAMI=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unuma copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siamcats.Unuma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,13 +748,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61A11E041E2A9D7D000F6184 /* Build configuration list for PBXNativeTarget "Unuma" */ = {
+		61A11E041E2A9D7D000F6184 /* Build configuration list for PBXNativeTarget "UnumaSeven" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61A11E051E2A9D7D000F6184 /* Debug */,
 				61A11E061E2A9D7D000F6184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61A11E071E2A9D7D000F6184 /* Build configuration list for PBXNativeTarget "UnumaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +764,7 @@
 				61A11E091E2A9D7D000F6184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61A11E0A1E2A9D7D000F6184 /* Build configuration list for PBXNativeTarget "UnumaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +773,16 @@
 				61A11E0C1E2A9D7D000F6184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A11E261E2BAAC2000F6184 /* Build configuration list for PBXNativeTarget "UnumaFami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A11E271E2BAAC2000F6184 /* Debug */,
+				61A11E281E2BAAC2000F6184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

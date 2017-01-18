@@ -4,6 +4,13 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Unuma copy 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Unuma.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +30,16 @@
 			<true/>
 		</dict>
 		<key>61A11DFA1E2A9D7D000F6184</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61A11E0D1E2B8673000F6184</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61A11E1C1E2BAAC2000F6184</key>
 		<dict>
 			<key>primary</key>
 			<true/>
